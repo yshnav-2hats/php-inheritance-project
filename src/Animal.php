@@ -8,6 +8,6 @@ class Animal
 
 	public function sayHello()
 	{
-		return "Hello, I am an animal";
+		return "Hello from parent class";
 	}
 }
