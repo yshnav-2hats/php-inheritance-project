@@ -11,7 +11,7 @@ $dog->name = "Scooby";
 echo $dog->name;
 echo "\n";
 
-echo $dog->sayHello();
+echo $dog->showMessage();
 echo "\n";
 
 echo $dog->bark();

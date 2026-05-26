@@ -4,9 +4,9 @@ namespace Animal;
 
 class Dog extends Animal
 {
-	public function sayHello()
+	public function showMessage()
 	{
-		echo parent::sayHello();
+		echo $this->sayHello();
 		echo "\n";
 
 		echo "Hello of child class";
