@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-use Root\InheritanceProject\Dog;
+use Animal\Dog;
 
 $dog = new Dog();
 

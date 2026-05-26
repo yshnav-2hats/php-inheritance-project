@@ -1,6 +1,6 @@
 <?php
 
-namespace Root\InheritanceProject;
+namespace Animal;
 
 class Dog extends Animal
 {

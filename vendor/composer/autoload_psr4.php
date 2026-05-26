@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Root\\InheritanceProject\\' => array($baseDir . '/src'),
+    'Animal\\' => array($baseDir . '/src'),
 );
