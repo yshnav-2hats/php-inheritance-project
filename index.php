@@ -6,13 +6,12 @@ use Animal\Dog;
 
 $dog = new Dog();
 
-$dog->name = "Scooby";
-
-echo $dog->name;
+$dog->testFunction();
 echo "\n";
 
-echo $dog->showMessage();
+echo $dog->publicFunction();
 echo "\n";
 
-echo $dog->bark();
+echo $dog->callPrivateFunction();
 echo "\n";
+

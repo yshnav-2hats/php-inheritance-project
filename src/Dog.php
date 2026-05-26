@@ -4,16 +4,12 @@ namespace Animal;
 
 class Dog extends Animal
 {
-	public function showMessage()
+	public function testFunction()
 	{
-		echo $this->sayHello();
+		echo $this->publicFunction();
 		echo "\n";
 
-		echo "Hello of child class";
-	}
-
-	public function bark()
-	{
-		return "Dog barks";
+		echo $this->protectedFunction();
+		echo "\n";
 	}
 }
